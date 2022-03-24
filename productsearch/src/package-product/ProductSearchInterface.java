@@ -24,11 +24,12 @@ public interface ProductSearchInterface {
      * PARAM:-  String keyword ,String sortBy
      * RETURN OBJECT:- List<ProductData> */   
 	
-	List<ProductData> getProductByKeyword(String keyword, String sortby);      
-      
+     
+    List<ProductData> getProductByKeyword(String keyword, String sortby);      
+     
 
-	/*OBJECTIVE - To  search  the product based on price//this should be 
-	 *METHOD:- getProductsByPrice()
+     /*OBJECTIVE - To  search  the product based on price//this should be 
+     *METHOD:- getProductsByPrice()
      *PARAM:- Integer Price, String keyword // it should be Under price a also (Ranging)
      *RETURN OBJECT:List<productSearchResponse> */
 
